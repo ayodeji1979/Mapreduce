@@ -1,1 +1,2 @@
-# Mapreduce
+## Mapreduce
+- The MapReduce model consists of two main stages: the map stage and the reduce stage. In the map stage, the input data is divided into chunks, and a map function is applied to each chunk to produce a set of intermediate key-value pairs. The intermediate pairs are then grouped by key, and the reduce function is applied to the values associated with each key to produce a set of output values. MapReduce is designed to scale to very large data sets. It is used in a variety of big data applications, including search engines, data mining, and machine learning. In this analysis, we used MapReduce to know the number of products for each colour.
